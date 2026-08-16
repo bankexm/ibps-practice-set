@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IBPS PO/Clerk Practice Set - 150 Questions | ₹50 Only</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', sans-serif; background: linear-gradient(135deg, #0f0c29, #302b63, #24243e); color: #fff; min-height: 100vh; }
+        .container { max-width: 900px; margin: 0 auto; padding: 40px 20px; }
+        .hero { text-align: center; padding: 60px 0 40px; }
+        .hero h1 { font-size: 2.5em; color: #00d4ff; margin-bottom: 15px; }
+        .hero p { font-size: 1.3em; color: #a8b2d1; margin-bottom: 25px; }
+        .price-tag { font-size: 3.5em; color: #00d4ff; font-weight: bold; margin: 30px 0; }
+        .price-tag span { font-size: 0.4em; color: #8892b0; text-decoration: line-through; margin-right: 10px; }
+        .cta-btn { display: inline-block; padding: 18px 50px; background: linear-gradient(90deg, #00d4ff, #0099cc); color: #fff; text-decoration: none; border-radius: 50px; font-weight: bold; font-size: 1.2em; transition: all 0.3s; cursor: pointer; border: none; text-transform: uppercase; }
+        .cta-btn:hover { transform: scale(1.05); box-shadow: 0 10px 30px rgba(0,212,255,0.3); }
+        .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 25px; margin: 50px 0; }
+        .feature { background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px; text-align: center; border: 1px solid rgba(255,255,255,0.1); }
+        .feature h3 { color: #00d4ff; margin-bottom: 12px; font-size: 1.3em; }
+        .feature p { color: #a8b2d1; }
+        .stats { display: flex; justify-content: space-around; margin: 50px 0; flex-wrap: wrap; }
+        .stat { text-align: center; padding: 20px; }
+        .stat-number { font-size: 3em; color: #00d4ff; font-weight: bold; }
+        .stat-label { color: #8892b0; margin-top: 5px; }
+        .testimonials { margin: 50px 0; }
+        .testimonials h2 { text-align: center; margin-bottom: 30px; color: #00d4ff; }
+        .testimonial { background: rgba(255,255,255,0.05); padding: 25px; border-radius: 15px; margin-bottom: 20px; border-left: 4px solid #00d4ff; }
+        .testimonial p { font-size: 1.1em; margin-bottom: 10px; }
+        .testimonial small { color: #00d4ff; }
+        .payment-section { background: rgba(0,212,255,0.1); padding: 40px; border-radius: 20px; margin: 50px 0; border: 1px solid rgba(0,212,255,0.3); }
+        .payment-section h2 { color: #00d4ff; margin-bottom: 25px; text-align: center; }
+        .upi-box { background: rgba(0,0,0,0.3); padding: 20px; border-radius: 10px; font-size: 1.3em; color: #00d4ff; margin: 20px 0; word-break: break-all; text-align: center; border: 2px dashed #00d4ff; }
+        .step { display: flex; align-items: center; margin: 15px 0; padding: 15px; background: rgba(255,255,255,0.03); border-radius: 10px; }
+        .step-number { background: #00d4ff; color: #0f0c29; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: bold; margin-right: 20px; flex-shrink: 0; }
+        .telegram-btn { background: #0088cc; color: #fff; padding: 15px 30px; border-radius: 50px; text-decoration: none; display: inline-block; margin-top: 20px; font-weight: bold; }
+        .footer { text-align: center; padding: 40px 0; color: #8892b0; border-top: 1px solid rgba(255,255,255,0.1); margin-top: 40px; }
+        @media (max-width: 600px) {
+            .hero h1 { font-size: 1.8em; }
+            .price-tag { font-size: 2.5em; }
+            .features { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>📚 IBPS PO/Clerk Practice Set</h1>
+            <p>150+ Handpicked Questions with Detailed Solutions & Formula Sheets</p>
+            <div class="price-tag"><span>₹299</span> ₹50</div>
+            <button class="cta-btn" onclick="scrollToPayment()">🔥 Buy Now - Instant Download</button>
+        </div>
+        
+        <div class="stats">
+            <div class="stat"><div class="stat-number">150+</div><div class="stat-label">Questions</div></div>
+            <div class="stat"><div class="stat-number">3</div><div class="stat-label">Subjects</div></div>
+            <div class="stat"><div class="stat-number">50+</div><div class="stat-label">Formulas</div></div>
+            <div class="stat"><div class="stat-number">24/7</div><div class="stat-label">Access</div></div>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>📖 English</h3>
+                <p>40 Error Detection questions with step-by-step solutions</p>
+            </div>
+            <div class="feature">
+                <h3>🔢 Quantitative</h3>
+                <p>54 questions covering Speed, Profit/Loss, Work/Time, Number Series</p>
+            </div>
+            <div class="feature">
+                <h3>🧩 Reasoning</h3>
+                <p>56 questions on Seating Arrangement, Puzzles, Syllogism</p>
+            </div>
+            <div class="feature">
+                <h3>📝 Formula Sheets</h3>
+                <p>All important formulas compiled for quick revision</p>
+            </div>
+        </div>
+        
+        <div class="testimonials">
+            <h2>⭐ What Students Say</h2>
+            <div class="testimonial">
+                <p>"Bahut achha material hai. Mera IBPS PO clear ho gaya iski wajah se!"</p>
+                <small>- Rahul Kumar, IBPS PO Selected 2025</small>
+            </div>
+            <div class="testimonial">
+                <p>"Formula sheets bahut helpful hain. Ek baar padh lo, exam ke liye ready!"</p>
+                <small>- Priya Sharma, Clerk Exam 2025</small>
+            </div>
+            <div class="testimonial">
+                <p>"Sirf ₹50 mein itna useful material! Best investment for banking prep."</p>
+                <small>- Amit Singh, IBPS Clerk</small>
+            </div>
+        </div>
+        
+        <div class="payment-section" id="payment">
+            <h2>💳 How to Buy (2 Simple Steps)</h2>
+            <div class="step">
+                <div class="step-number">1</div>
+                <div>Pay ₹50 to this UPI ID:</div>
+            </div>
+            <div class="upi-box">7206986298-2@ybl</div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <div>Screenshot bhejo Telegram pe → PDF turant milega!</div>
+            </div>
+            <center>
+                <a href="https://t.me/deeeepaaakbot" class="telegram-btn">📩 Send Screenshot on Telegram</a>
+            </center>
+        </div>
+        
+        <div class="footer">
+            <p>Made with ❤️ for Banking Aspirants</p>
+            <p>© 2026 IBPS Practice Set | All Rights Reserved</p>
+        </div>
+    </div>
+    <script>
+        function scrollToPayment() {
+            document.getElementById('payment').scrollIntoView({behavior: 'smooth'});
+        }
+    </script>
+</body>
+</html>
